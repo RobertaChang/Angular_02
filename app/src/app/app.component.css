@@ -1,0 +1,43 @@
+* {
+    font-style: italic;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+ }
+
+h1 {
+    color: #f99;
+    font-size: 27px;
+
+}
+
+fieldset {
+    color: maroon;
+    position: unset;
+    height: 100%;
+    width: 400px;
+    margin:auto;
+ }
+
+fieldset {
+    background-color: hsl(24, 70%, 85%);
+    border: 2px #af3333 solid;
+    border-radius: 10px;
+    line-height: 30px;
+ }
+
+fieldset.elist label {
+    display: none;
+    width: 100%;
+ }
+
+input:placeholder-shown {
+    border: 1px #af3333 solid;
+    border-radius: 10px;
+    line-height: 10px;
+    font-style: italic;
+ }
+input::placeholder {
+    color: #ad83ad;
+ }

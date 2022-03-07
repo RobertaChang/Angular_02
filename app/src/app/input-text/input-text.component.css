@@ -1,0 +1,20 @@
+input {
+    background-color: hsl(24, 70%, 85%);
+    border: rgb(199, 64, 64);
+    color: lightcoral; 
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 17px;
+    text-align: center;
+    font-family: monospace;
+}
+
+input:placeholder-shown {
+    border: 1px #af3333 solid;
+    border-radius: 10px;
+    line-height: 10px;
+    font-style: italic;
+ }
+input::placeholder {
+    color: #ad83ad;
+ }
